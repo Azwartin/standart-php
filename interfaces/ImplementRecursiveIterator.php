@@ -3,6 +3,8 @@
 /**
  * Class implements RecursiveIterator interface. 
  * Use it when you have Iterator in Iterator in Iterator ... in one object and you want iterate over its as one
+ * For example you can get N records from DB/API, iterate its, 
+ * check that next N records exist in hasChildren, get next N in getChildren - repeat 
 */
 class Container implements RecursiveIterator 
 {

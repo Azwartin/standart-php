@@ -3,6 +3,7 @@
 /**
  * Class implements OuterIterator interface. 
  * Use it when you have more then one Iterator in one object and you want iterate over its
+ * For example you have three requests to DB/API and you want iterate over as one
 */
 class Container implements OuterIterator 
 {
