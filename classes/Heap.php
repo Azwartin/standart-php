@@ -2,6 +2,9 @@
 
 /**
  * Stored sorted users from max to min
+ * Operator Insert keeps order
+ * SplMaxHeap and SplMinHeap work similarly
+ * 
 */
 class MaxHeap extends SplHeap 
 {
